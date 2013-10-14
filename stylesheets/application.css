@@ -1132,3 +1132,105 @@ th.poll_head {
     word-wrap: break-word;       /* Internet Explorer 5.5+ */
     white-space: normal;
 }
+
+
+/* antonovgks dropdown menus patch  */
+/* origin: http://code-tricks.com/simple-css-drop-down-menu/ */
+
+/*Initialize*/
+
+#top-menu li, #top-menu ul.menu-children li {
+    list-style-type: none;
+    /* display: inline-block; */
+    float:left;
+}
+
+#top-menu ul.menu-children li {
+    width: 200px;
+}
+
+/*Link Appearance*/
+
+#top-menu ul li ul.menu-children li a {
+    text-decoration: none;
+    color: white;
+    background: grey;
+    padding: 5px;
+    display: block;
+}
+
+#top-menu ul li ul.menu-children li a:hover {
+    background-color: #666;
+}
+
+#top-menu ul li a:hover {
+    text-decoration: none;
+}
+
+
+/*Make the parent of menu-children relative*/
+#top-menu ul li ul.menu-children {
+    position: relative;
+}
+
+#top-menu ul li ul.menu-children {
+    display:none;
+    position: absolute;
+    /* top: 30px; */
+    /* right: -40px; */
+    width: 150px;
+    z-index: 5;
+}
+
+#top-menu ul li:hover > ul.menu-children {
+    display:block;
+}
+
+
+
+
+
+
+/* /\* antonovgks dropdown menus patch  *\/ */
+/* /\* origin: http://code-tricks.com/simple-css-drop-down-menu/ *\/ */
+
+/* #top-menu li { */
+/*     list-style-type: none; */
+/*     display: inline-block; */
+/*     float:left; */
+/* } */
+
+/* #top-menu ul.menu-children li { */
+/*    list-style-type: none; */
+/* }  */
+
+/* /\*Link Appearance*\/ */
+
+/* #top-menu ul li ul.menu-children li a { */
+/*     text-decoration: none; */
+/*     color: white; */
+/*     background: grey; */
+/*     padding: 5px; */
+/* } */
+
+/* #top-menu ul li ul.menu-children li a:hover { */
+/*     background-color: #666; */
+/* } */
+
+/* /\*Make the parent of menu-children relative*\/ */
+/* #top-menu ul li ul.menu-children { */
+/*     position: relative; */
+/* } */
+
+/* #top-menu ul li ul.menu-children { */
+/*     display:none; */
+/*     /\* position: absolute; *\/ */
+/*     /\* top: 30px; *\/ */
+/*     /\* right: -40px; *\/ */
+/*     width: 150px; */
+/*     z-index: 5; */
+/* } */
+
+/* #top-menu ul li:hover > ul.menu-children { */
+/*     display:block; */
+/* } */
