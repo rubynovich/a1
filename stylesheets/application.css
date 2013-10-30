@@ -277,6 +277,10 @@ div#welcome-store-content h4 {
   }
 }
 
+@media print {
+  div.flash { display: none; }
+}
+
 a, a:link, a:visited {
 	color: #005782;
 }
