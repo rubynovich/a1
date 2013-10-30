@@ -279,6 +279,25 @@ div#welcome-store-content h4 {
 
 @media print {
   div.flash { display: none; }
+  table {
+    -webkit-column-page-break-inside: avoid;
+    -moz-page-break-inside: avoid;
+    -ms-page-break-inside: avoid;
+    -o-page-break-inside: avoid;
+    page-break-inside: avoid;
+  }
+  tr {
+    -webkit-column-page-break-inside: avoid;
+    -moz-page-break-inside: avoid;
+    -ms-page-break-inside: avoid;
+    -o-page-break-inside: avoid;
+    page-break-inside: avoid;
+    -webkit-column-page-break-after: auto;
+    -moz-page-break-after: auto;
+    -ms-page-break-after: auto;
+    -o-page-break-after: auto;
+    page-break-after: auto;
+  }
 }
 
 a, a:link, a:visited {
