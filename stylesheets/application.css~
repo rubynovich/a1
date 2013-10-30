@@ -298,12 +298,7 @@ div#welcome-store-content h4 {
     -o-page-break-after: auto;
     page-break-after: auto;
   }
-  tr.head {
-    -webkit-column-page-break-inside: avoid;
-    -moz-page-break-inside: avoid;
-    -ms-page-break-inside: avoid;
-    -o-page-break-inside: avoid;
-    page-break-inside: avoid;
+  tr.head, h2, h3, h4, h5{
     -webkit-column-page-break-after: avoid;
     -moz-page-break-after: avoid;
     -ms-page-break-after: avoid;
