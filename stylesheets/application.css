@@ -298,6 +298,24 @@ div#welcome-store-content h4 {
     -o-page-break-after: auto;
     page-break-after: auto;
   }
+  tr th {
+    -webkit-column-page-break-inside: avoid;
+    -moz-page-break-inside: avoid;
+    -ms-page-break-inside: avoid;
+    -o-page-break-inside: avoid;
+    page-break-inside: avoid;
+    -webkit-column-page-break-before: auto;
+    -moz-page-break-before: auto;
+    -ms-page-break-before: auto;
+    -o-page-break-before: auto;
+    page-break-before: auto;
+    -webkit-column-page-break-after: avoid;
+    -moz-page-break-after: avoid;
+    -ms-page-break-after: avoid;
+    -o-page-break-after: avoid;
+    page-break-after: avoid;
+  }
+
 }
 
 a, a:link, a:visited {
