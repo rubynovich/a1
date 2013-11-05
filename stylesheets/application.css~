@@ -310,6 +310,10 @@ div#welcome-store-content h4 {
     -o-page-break-before: auto;
     page-break-before: auto;
   }
+  h3, h4, h5 {
+    widows: 0;
+    orphans: 0;
+  }
 }
 
 a, a:link, a:visited {
@@ -1182,7 +1186,7 @@ th.poll_head {
 }
 
 #top-menu ul.menu-children li {
-    width: 220px;
+    width: 200px;
 }
 
 /*Link Appearance*/
